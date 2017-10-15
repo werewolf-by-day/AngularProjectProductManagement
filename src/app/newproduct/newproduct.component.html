@@ -1,0 +1,24 @@
+<fieldset>
+	<h1>Create a New Product</h1>
+	<form (submit)="create()" #formData="ngForm">
+      <p>Title <input
+      [(ngModel)]="newProduct.title"
+      required
+      name='title'
+      minlength="4"
+      #name="ngModel"
+      type="text"></p>
+      <p>Price <input 
+      [(ngModel)]="newProduct.price"
+      required
+      name='price'
+      minlength="1"
+      #price="ngModel"
+      type="number"></p>
+      <p>Image Url <input 
+      [(ngModel)]="newProduct.imgUrl"
+      #image="ngModel"
+      type="text"></p><br>
+      <button type='submit' [disabled]="!formData.valid">Create</button>
+    </form>
+</fieldset>

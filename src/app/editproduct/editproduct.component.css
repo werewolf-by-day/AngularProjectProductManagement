@@ -1,0 +1,41 @@
+fieldset {
+	background-color: #e6faff;
+	width: 970px;
+	height: 600px;
+}
+
+label {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+div {
+    width: 410px;
+}
+
+div.inputs label {
+    width: 200px;
+    display: inline-block;
+}
+
+input { 
+    width: 200px;
+}
+
+input.submit {
+    margin: 10px 0px 0px 10px;
+    width: 100px;
+    border: 0px;
+    background-color: blue;
+	color: white;
+	display: inline;
+}
+
+.delete {
+    margin: 10px 0px 0px 195px;
+    width: 100px;
+    border: 0px;
+    background-color: crimson;
+	color: white;
+	display: inline;
+}

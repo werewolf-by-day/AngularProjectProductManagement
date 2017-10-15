@@ -1,0 +1,29 @@
+* {
+
+}
+
+fieldset {
+	background-color: #e6faff;
+	width: 970px;
+	height: 600px;
+}
+
+
+form {
+	font-size: 22px;
+	display: block;
+}
+
+input { 
+    width: 200px;
+}
+
+button {
+	width: 90px;
+	text-align: center;
+	display: block;
+	background-color: green;
+	color: white;
+	margin-left: 200px;
+}
+
